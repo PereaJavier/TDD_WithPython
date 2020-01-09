@@ -13,3 +13,19 @@ Proceso de desarrollo:
 
 
 
+### Instalación de Pytest 
+El framework pytest facilita la escritura de pequeñas pruebas unitarias en Python, de manera que es capaz de escalar hasta soportar pruebas funcionales complejas para diversas aplicaciones y librerías.
+#### Pip
+`pip install -U pytest`
+#### Conda
+`conda install pytest`
+
+### Configuración de IDEs 
+Para aplicar test unitarios en el IDE que se desee usar se deben aplicar los siguientes pasos:
+#### PyCharm
+1. Pulsa Add Configuration en la ventana superior derecha.
+2. Botón + (Add New Configuration) -> Python tests -> pytest
+3. Nombre su test y seleccione el intérprete que desee usar
+4. Confirme los cambios
+5. Ya puede ejecutar el test
+
